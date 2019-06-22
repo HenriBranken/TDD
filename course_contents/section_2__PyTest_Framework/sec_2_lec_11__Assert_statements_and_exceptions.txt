@@ -1,0 +1,30 @@
+Using the Assert Statement:
+1.  Pytest allows the ue of the built-in python assert statement for performing verifications in a unit test.
+2.  Comparison on all of the Python data types can be performed using the standard comparison operators:
+    <, >, <=, >=, ==, !=
+3.  PyTests expands on the message returned from the assert failures to provide more context in the test results.
+
+Comparing Floating Point Values.
+1.  Validating floating point values can sometimes be difficult as internally the value is a series of binary fractions.
+2.  Because of this, some floating point comparisons that would be expected to pass, actually fail.
+    E.g.:
+    def test_bad_float_compare():
+        assert (0.1 + 0.2) == 0.3
+3.  The pytest `approx` function can be used to verify that 2 floating point values are "approximately" equivalent to each other,
+    with a default tolerance of 1e-6.
+    E.g.:
+    def test_good_float_compare():
+        val = 0.1 + 0.2
+        assert val == approx(0.3)
+
+Verifying Exceptions.
+1.  In some cases we want to verify that a function throws an exception under certain conditions.
+2.  Pytest provides the "raises" helper to perform this verification using the "with" keyword.
+    E.g.:
+    def test_exception():
+        with pytest.raises(ValueError):
+            raise ValueError
+3.  If the specified exception is not raised in the code block specified after the "raises" line, then the test fails.
+
+Next Video:
+1.  Cover useful PyTest Command Line Arguments.

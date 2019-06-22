@@ -1,0 +1,28 @@
+XUnit Style Setup and Teardown.
+-   XUnit style setup/teardown functions will execute code before and after:
+    1.  Test Modules.
+        (a) def setup_module():
+        -   Called once before any of the unit tests (and their setup and teardown code) in the module are being executed.
+        (b) def teardown_module():
+        -   Called again once after all of the unit tests in the module (and their setup & teardown code) have finished executing.
+    2.  Test Functions.
+        (a) def setup_function():
+        (b) def teardown_function():
+        -   the setup and teardown code can be customised per unit test as necessary.
+    3.  Test Classes.
+        (a) def setup_class():
+        -   executed by pytest before any of the unit tests in the class are executed.
+        (b) def teardown_class():
+        -   executed by pytest after all of the unit tests in the class have finished execution.
+    4.  Test Methods in Test Classes.
+        (a) def setup_method():
+        -   called before each unit test in the class are executed.
+        (b) def teardown_method():
+        -   called after each unit test in the class are executed.
+-   They can help reduce code duplication.
+-   Keeps your code clean and manageable.
+
+Next video lecture:
+1.  Test Fixtures Environment.
+    Powerful alternative to the XUnit style of setup and teardown.
+    It utilizes dependency injection.

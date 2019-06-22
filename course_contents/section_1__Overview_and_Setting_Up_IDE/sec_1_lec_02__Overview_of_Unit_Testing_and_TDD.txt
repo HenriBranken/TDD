@@ -1,0 +1,44 @@
+Why do we Unit Test:
+1.  Software bugs can hurt our business.
+    Software testing catches bugs before they get to the field.
+    Several layers of safety nets helps ensure we catch ALL the bugs.
+2.  The Different Levels of Testing.
+  - Unit Testing.  Testing at the function level.
+  - Component Testing.  Testing is at the library and compiled binary level.
+  - System Testing.  Tests the external interfaces of a system which is a collection of sub-systems.
+  - Performance Testing.  Tests done at the sub-system and system levels to verify timing and resource usages are acceptable.
+
+Unit Testing Specifics:
+1.  Tests individual functions in the code.
+2.  A test should be written for each test case for a function (all positive and negative test cases).
+3.  Groups of tests can be combined into test suites for better organization.
+4.  Executes in the development environment rather than the production environment.
+5.  Execution of the tests should be automated.
+
+What is Test-Driven Development (TDD):
+1.  A process where the developer takes personal responsibility for the quality of your code.
+  - Unit tests are written before the production code.
+  - Don't write all the tests or production code all at once.
+  - Small chunks of tests and production code are written together.
+
+What are some of the benefits of using TDD:
+1.  Gives you confidence to make changes to the code.
+2.  Gives you immediate feedback.
+3.  Documents what the code is doing.
+4.  Drives good object-oriented design.
+
+TDD Work Flow:  Red, Green, & Refactor phases:
+1.  Red.
+  - Write a failing unit test.
+2.  Green.
+  - Make the test pass.
+3.  Refactor.
+  - Refactor the code to make it clean.
+    . Remove any duplication.
+    . Code conforms to standards and best practices.
+4.  Repeat the process until the feature is complete.
+
+Uncle Bob's 3 Laws of TDD:
+1.  You may not write any production code until you have a failing unit test.
+2.  You may not write more of a unit test than is sufficient to fail.  Not compiling is failing.
+3.  You may not write more production code than is sufficient to pass the currently failing unit test.

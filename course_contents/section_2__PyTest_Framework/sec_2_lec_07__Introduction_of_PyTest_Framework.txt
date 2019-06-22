@@ -1,0 +1,25 @@
+What is PyTest?
+1.  PyTest is a Python unit testing framework.
+2.  It provides the ability to create:
+    -   Create Tests
+    -   Test Modules
+    -   and Test Fixtures.
+3.  Uses the built-in Python Assert Statement.
+    -   This makes implementing unit tests a lot simpler than other frameworks.
+4.  Has command-line parameters to help filter
+    -   which tests are executed, and
+    -   in what order the tests are executed.
+
+Creating a Test:
+1.  Tests are python functions with `test` at the beginning of the function name.
+2.  Tests do verification of values using the standard Python assert statement.
+3.  Similar tests can be grouped together by including them in the same module or class.
+# test_some_function.py
+def test_some_function():
+    assert 1 == 1
+
+Executing pytest from the command-line terminal:
+1.  pytest -v <python_file.py>
+
+Next Lecture:
+1.  The Automatic Test Discovery Capability of the PyTest framework.

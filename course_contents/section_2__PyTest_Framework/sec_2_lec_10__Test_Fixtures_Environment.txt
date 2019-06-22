@@ -1,0 +1,65 @@
+Test Fixtures
+1.  Test Fixtures allow for re-use of setup and teardown code across tests.
+@pytest.fixture():
+def math():
+    return Math()
+
+
+def test_Add(math):
+    assert math.add(1, 1) == 2
+
+2.  The "@pytest.fixture()" decorator is applied to functions that are decorators.
+
+3.  Individual unit tests can specify which fixtures they want executed by specifying it in their parameter list,
+    or by using the @pytest.mark.usefixtures decorator.
+
+4.  The autouse parameter can be set to True to automatically execute a fixture before each test which is in the fixture scope.
+    Will cause all tests within the fixture scope to automatically execute the fixture before the test executes.
+
+
+Test Fixture Teardown:
+1.  Each test fixture can have their own optional teardown code which is called after a fixture goes out of scope.
+2.  There are 2 methods for specifying teardown code:
+    -   The "yield" keywordd, and the
+    -   request-context object's "addfinalizer" method.
+
+
+The Test Fixture Teardown --> yield example.
+@pytest.fixture():
+def setup():
+    print("Setup!")
+    yield
+    print("Teardown!")
+1.  When the "yield" keyword is used, the code after the yield is executed after the fixture goes out of scope.
+2.  The "yield" keword is a replacement for the return keyword, so any return values are also specified in the yield statement.
+
+
+The Test Fixture Teardown --> addfinalizer example.
+@pytest.fixture():
+def setup(request):
+    print("Setup")
+    def teardown:
+    print("Teardown!")
+
+request.addfinalizer(teardown)
+1.  With the addfinalizer method, one or more finalizer functions are added via the request-context addfinalizer method.
+2.  Multiple finalization functions can be specified.
+
+Test Fixture Scope:
+-   Test fixtures can have the following four different scopes which specify how often the fixture will be called:
+    1.  Function:  Run the fixture once for each test.  (the default scope)
+    2.  Class:  Run the fixture once for each class of tests.  (once per class)
+    3.  Module:  Run once when the module goes in scope.  (once per module)
+    4.  Session:  The fixture is run when pytest starts.
+
+Test Fixture Return Objects and Params:
+-   Test Fixture can optionally return data which can be used in the test.
+    E.g.:
+    @pytest.fixture(params=[1, 2]):  # specify values that should be passed to the test.
+    def setup_data(request):
+        return request.param
+
+    def test_1(setup_data):
+        print(setup_data)
+-   The optional `params` array argument in the fixture decorator can be used to specify the data returned to the test.
+-   When a `params` argument is specified, then the test will be called one time with each value specified.

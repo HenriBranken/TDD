@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e48ae0aa-24d3-4e07-83c6-5a8e41252283" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sec_1_lec_02__very_simple_example.py" />
+        <option value="$PROJECT_DIR$/sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" />
+        <option value="$PROJECT_DIR$/sec_1_lec_05__setting_up_pytest_in_pycharm.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="section_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="section_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py">
+    <configuration name="pytest for sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.test_return_false_divisible_by_4_and_100" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="section_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.test_return_false_divisible_by_4_and_100&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in sec_1_lec_02__very_simple_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="section_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sec_1_lec_02__very_simple_example.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="section_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="section_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sec_1_lec_05__setting_up_pytest_in_pycharm.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" />
+        <item itemvalue="Python tests.pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" />
+        <item itemvalue="Python tests.pytest for sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.test_return_false_divisible_by_4_and_100" />
+        <item itemvalue="Python tests.pytest in sec_1_lec_02__very_simple_example.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e48ae0aa-24d3-4e07-83c6-5a8e41252283" name="Default Changelist" comment="" />
+      <created>1561130267928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561130267928</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_test_return_false_divisible_by_4_and_100 - 2019.06.21 at 18h 52m 40s.xml">
+      <configuration name="pytest for sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.test_return_false_divisible_by_4_and_100" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_py - 2019.06.21 at 18h 57m 28s.xml">
+      <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_py - 2019.06.21 at 18h 58m 29s.xml">
+      <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_py - 2019.06.21 at 19h 00m 19s.xml">
+      <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_py - 2019.06.21 at 19h 01m 01s.xml">
+      <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session_py - 2019.06.21 at 19h 03m 17s.xml">
+      <configuration name="pytest in sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_05__setting_up_pytest_in_pycharm_py - 2019.06.21 at 19h 42m 26s.xml">
+      <configuration name="pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_05__setting_up_pytest_in_pycharm_py - 2019.06.21 at 19h 45m 31s.xml">
+      <configuration name="pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_05__setting_up_pytest_in_pycharm_py - 2019.06.21 at 19h 45m 56s.xml">
+      <configuration name="pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_sec_1_lec_05__setting_up_pytest_in_pycharm_py - 2019.06.21 at 19h 58m 09s.xml">
+      <configuration name="pytest in sec_1_lec_05__setting_up_pytest_in_pycharm.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1034" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812863" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sec_1_lec_02__very_simple_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec_1_lec_03_Simple_unit_testing_and_TDD_coding_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec_1_lec_05__setting_up_pytest_in_pycharm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

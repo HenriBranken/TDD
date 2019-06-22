@@ -1,0 +1,37 @@
+Specifying what tests should run:
+1.  By default PyTest will automatically discover and run all tests in all
+    -   properly named modules from the
+        *   current working directory, and
+        *   sub-directories.
+2.  There are several command line arguments for controlling which discovered tests are actually executed.
+3.  PyTest uses the built-in Python assert statement.
+4.  For executing tests in a specific module:
+    -   simply specify the module name to run only the tests in that module.
+5.  For executing tests in a specific directory:
+    -   simply specify the <DirectoryName/> to run all the tests found in the specified directory.
+6.  -k "expression"
+    Runs the tests found that matches the expression in the string.
+    The string values can include module, class, and function names (that is, "TestClass" and "TestFunction")
+        *   pytest -v -s -k test2
+        *   pytest -v -s -k "test2 or test3"
+7.  -m "expression"
+    Runs tests found that have a "pytest.mark" decorator that mathces the specified expression.
+        *   pytest -v -s -m "test1 or test3"
+        In the respective files, add the decorators:
+        @pytest.mark.test1
+        @pytest.mark.test2
+8.  -v
+    Report in verbose mode.
+9.  -q
+    Run in quiet mode (can be helpful when running hundreds or thousands of tests at once).
+10. -s
+    Do not capture console output.  Show the print statements on the console.
+11. --ignore
+    Ignore the specified path when discovering tests.
+12. --maxfail
+    Stop after the specified number of failures.
+
+Next course video:
+-   Hands-on Example:
+    Implementing a Checkout Cart with TDD.
+    Begins a new section as well.

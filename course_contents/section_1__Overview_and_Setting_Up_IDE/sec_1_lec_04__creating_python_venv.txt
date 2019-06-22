@@ -1,0 +1,15 @@
+What are Python Virtual Environments?
+1.  By default all Python Packages are installed to a single directory on the system.
+  - This can be a problem if you have multiple projects that have different and potentially conflicting dependencies.
+2.  Virtual environments solve this by creating isolated python environments that can be customized per project.
+3.  venv's are directories containing the system's Python install and providing sub-directories for installing additional python packages in that particular virtual environment.
+4.  The PATH environment variable is updated to point to the venv when the venv is activated.
+
+Setting up a Python Virtual Environment in Python 3.
+1.  Python 3 comes with a virtual environment module built-in called venv.
+2.  venv is recommended as it is built-in to Python 3, creates smaller virtual environments, and is extendable.
+3.  The only difference between venv vs virtualenv is the creation command:
+  - python3 -m venv <VirtualEnvironmentName>
+  - source <VirtualEnvironmentName>/bin/activate
+  - deactivate
+  - rm -rfv <VirtualEnvironmentName>
