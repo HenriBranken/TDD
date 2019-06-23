@@ -1,0 +1,29 @@
+Setting up a checkout cart and the 1st test case:
+-   Checkout class that maintains a list of items that are being checked out.
+-   Checkout class should proved an interface for:
+    *   Setting the price on individual items.
+    *   Adding individual items to the checkout.
+    *   Calculating the current total cost from all the items that have been added.
+    *   Applying optional discount rules when there are N number of a specific type of item.
+
+
+Overview:
+-   Can create an instance of the Checkout Class.
+-   Can add an item price.
+-   Can add an individual item to the list of items.
+-   Calculate the current total.
+-   Can add multiple items and getting the correct total.
+-   Can add discount rules.
+-   Can apply discount rules to the total.
+-   Exception is thrown for an item added without any price.
+
+
+Summary:
+-   Checkout() instantiation gets duplicated over and over.  This is going to happen in all of the tests, as they all are going need a class object to work with.
+-   Good time to add a test fixture where I can instantiate and return a checkout instance.  Update all of the tests to return that test fixture.
+
+
+Next Lecture Video:
+-   How to create an isolated testing environment for your unit tests by using
+    *   test doubles, and the
+    *   unittest.mock framework.

@@ -1,0 +1,110 @@
+What are Test Doubles?
+1.  Almost all code depends (that is, collaborates) with other parts of the system.
+2.  Those other parts of the system are not always easy to replicate in the unit test environment,
+    or would make tests slow if used directly.
+3.  Test doubles are objects that are used in unit tests as replacements to the real production system collaborators.
+
+There are many types of Test Doubles:
+1.  Dummy.
+    Objects that can be passed around as necessary but do not have any type of test implementation and should never be used.
+2.  Fake.
+    Objects that generally have a simplified functional implementation of a particular interface that is adequate for testing, but not for production.
+3.  Stub.
+    These objects provide implementations with canned answers that are suitable for the test.
+4.  Spies.
+    These objects provide implementations that record the values that were passed in so they can be used by the test.
+5.  Mocks.
+    These objects are pre-programmed to expect specific calls and parameters, and can throw exceptions when necessary.
+    Most sophisticated.
+
+Mock Frameworks:
+1.  Most mock frameworks provide easy ways for automatically creating any of these types of test doubles (see above) at runtime.
+2.  They provide a fast means for creating mocking expectations for your tests.
+3.  They can be much more efficient than implementing custom mock objects of your own creation.
+4.  Creating mock objects by hand can be tedious and error prone.
+
+unittest.mock
+1.  Python Mocking Framework.
+2.  Built-in to Python version 3.3 and newer.
+3.  Needs to be installed for older versions of Python with the command "pip install mock"
+
+unittest.mock - Mock Class.
+1.  unittest.mock provides the Mock class which be used as a:
+    -   fake
+    -   stub
+    -   spy, or
+    -   true mock
+    for all of your tests (for other classes / functions).
+    E.g.:
+    def test_foo():
+        bar = Mock()
+        function_that_uses_bar(bar)
+        bar.assert_called_once()
+2.  Mock class has many initialisation parameters for controlling its behaviour:
+    -   what interface it should mock.
+    -   if it should call another function when called.
+    -   what value it should return.
+3.  Once it has been called, a Mock object has many built-in functions for verifying how it was used.
+    -   How many times it was called.
+    -   What parameters were used when it was called.
+
+Mock - Initialisation.
+1.  Mock provides many initialization parameters which can be used to control the mock objects behaviour.
+    E.g.:
+    def test_foo():
+        bar = Mock(spec=Spec_class)
+        bar_2 = Mock(side_effect=bar_func)
+        bar_3 = Mock(return_value=1)
+2.  The "spec" parameter specifies the interface that Mock object is implementing.
+    If any attributes of the mock objects are called that are not in that interface, then the mock object will automatically generate an attribute_error exception.
+3.  The "side_effect" parameters specifies a function that should be called when the mock is called.
+    This can be useful for more complicated test logic that returns different alues depending on input parameters, or generates exceptions.
+4.  The "return_value" parameter specifies the return value when the Mock is called.
+    If the "side_effect" parameter was set, then its return value is used instead.
+
+Mock - Verification.
+1.  Mock provides many built-in functions for verifying how it was used such as the following asserts:
+    1.  assert_called - Assert that the mock was called.
+    2.  assert_called_once - Assert the mock was called exactly once.
+    3.  assert_called_with - Assert the last call to the mock was with the specified parameters.
+    4.  assert_called_once_with - Assert the mock was called once with the specified parameters.
+    5.  assert_any_call - Assert the mock was ever called with the specified parameters.
+    6.  assert_not_called - Assert the mock was not called.
+
+Mock - Additional Verification.
+1.  Mock provides these additional built-in attributes for verification:
+    1.  assert_has_calls - Assert the mock was called with the list of calls
+        Passes if the mock was called with the parameters specified in each of the passed-in list of mock call objects,
+        and optionally in the order that those calls are put in the array.
+    2.  called - A Boolean value indicating if the mock was ever called.
+    3.  call_count - An integer value representing the number of times the mock object was called.
+    4.  call_args - The arguments the mock was last called with.
+    5.  call_args_list - A list containing the arguments that were used for each call to the mock.
+
+unittest.mock - MagicMock Class
+1.  unittest.mock also provides the MagicMock class.
+2.  MagicMock is derived from Mock and provides a default implementation of many of the default "magic" methods defined for objects in Python (that is, __str__).
+3.  The following magic methods are not implemented by default in MagicMock:
+    __getattr__, __setattr__, __init__, __new__, __prepare__, __instancecheck__, __subclasscheck__, and __del__
+4.  The instructor will use MagicMock in all of the examples in the course.
+    He also uses it by default in practice as it can simplify the test setup.
+
+PyTest Monkeypatch Test Fixture:
+1.  PyTest provides the monkeypatch test fixture to allow a test to dynamically replace:
+    (a) Module and class attributes.
+    (b) Dictionary entries.
+    (c) Environment variables.
+    E.g.:
+    def call_it():
+        print("Hello World")
+
+    def test_patch(monkeypatch):
+        monkeypatch(call_it, Mock())
+        call_it()
+
+    call_it.assert_called_once()
+
+Next video lecture:
+-   unittest.mock - Mocking the File System Examples.
+-   Going over an example of mocking the filesystem using unittest.mock.
+-   sec_4_lec_19__mocking_the_file_system_examples
