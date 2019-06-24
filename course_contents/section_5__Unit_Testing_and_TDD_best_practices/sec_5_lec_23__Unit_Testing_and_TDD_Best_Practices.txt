@@ -1,0 +1,62 @@
+Unit Testing and TDD Best Practices:
+-   Types of Code Coverage.
+-   Implementing code coverage with pytest.cov
+-   Work through some examples.
+
+
+Always Do the Next Simplest Test Case:
+-   Doing the next simplest test case allows you to gradually increase the
+    complexity of your code, refactoring as you go along.
+    *   Helps keep your code clean and understandable.
+-   If you jump into the complex test cases too quickly, you will find yourself
+    stuck writing a lot of functionality all at once.
+    *   Beyond just slowing you down, this can also lead to bad design decisions.
+    *   You miss simple implementations coming from the incremental approach.
+
+Always use Descriptive Test Names:
+-   Code is read 1000 times more than it is written.  Make it clear and readable.
+-   Unit tests are the best documentation for how your code works.
+    Make them easy to understand.
+-   Test suites should name the class or function under test, and the test names
+    should describe the functionality being tested.
+
+Keep your unit tests building and running fast:
+-   One of the biggest benefits of TDD is the fast feedback on how your changes
+    have affected things.
+    *   This goes away if your unit tests take more than a few seconds to build
+        and run.
+-   To help your tests stay fast, try to:
+    *   Keep console output to a minimum: this slows things down and can clutter
+        up the testing framework output.
+    *   Mock out any slow collaborators with test doubles that are fast, such as
+        network connections and databases.
+
+Use Code Coverage Analysis Tools:
+-   Once you have all your test cases covered, and you think you're done, run your
+    unit test through a code coverage tool.
+-   This can help you identify any test cases you may have missed that are negative
+    test cases.
+-   You should have a goal of 100% code coverage in functions with real logic in
+    them that is not simple getters / setters.
+-   Pytest-cov is easy to install:  pip install pytest-cov
+    can generate an easy-to-use html output.
+
+Run your tests multiple times and in random order.
+-   Running your tests many times will help ensure that you don't have any flaky
+    tests that fail intermittently.
+-   Running your tests in random order ensures that your tests don't have any
+    dependencies between each other.
+-   Use the pytest-random-order plugin to randomize the order that the tests are
+    executed.  Use pytest-repeat plugin to repeat one or more tests a specific
+    number of times.
+
+Use a Static Code Analysis Tool:
+-   Pylint is an excellent open-source static code analysis tool that will find
+    errors in your code that you may have missed in your testing.
+-   Pylint can verify that your Python code meets your team's coding standard
+    or the PEP8 standard by default.
+-   Pylint can also detect duplicated code and can generage UML diagrams from
+    it's analysis of the code.
+
+Next Video Lecture:
+-   Hands-On Example of Applying Best Practices.

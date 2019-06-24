@@ -108,3 +108,7 @@ Next video lecture:
 -   unittest.mock - Mocking the File System Examples.
 -   Going over an example of mocking the filesystem using unittest.mock.
 -   sec_4_lec_19__mocking_the_file_system_examples
+
+Next Section of the Course:
+-   Review several best practices of unit testing and test-driven development,
+    and walk through some examples.

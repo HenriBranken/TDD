@@ -1,0 +1,22 @@
+What is Code Coverage Analysis?
+-   Code coverage tools analyze the execution of your production code as you run your unit tests to see what parts of the production code were executed.
+-   Code coverage tools produce a report at the end of the execution of your unit tests specifying the coverage of the tests.
+-   The coverage report can tell you if you have any holes in your tests where parts of the production code are not being tested.
+-   Your goal should be to have 100% code coverage of all your production code by your units tests (barring simple getter/setter functions).
+
+Many types of Code Coverage Analysis:
+-   Line:
+    With this type of analysis the coverage report specifies which executable lines of the production code were executed.
+-   Statement:
+    This type of coverage goes a step beyond line coverage to verify that every individual statement is covered, even multiple statements on the same line.
+-   Branch Coverage:
+    Branch testing reports on the percentage of each branch point that has been executed at least once.
+-   Modified Condition/Decision:
+    This is an advanced form of branch coverage which verifies that all entry and exit points in a program has been invoked at least once and with all possible condition criteria combinations.
+
+PyTest-Cov:
+-   Code coverage plugin for PyTest.
+-   Provides statement and branch coverage.
+-   Can generate reports to the console or in HTML, XML, and annotated source code.
+-   Can work with distributed testing, that is xdist support.
+-   easy to install via "pip install pytest-cov"

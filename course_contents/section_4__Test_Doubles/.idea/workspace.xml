@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46583043-8d70-4602-8dee-f09f4e74b224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/.idea/section_3__Hands_on_Example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/Checkout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/sec_3_lec_13__setting_up_checkout_cart.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../section_3__Hands_on_Example/sec_3_lec_13__walkthrough_1_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/section_4__Test_Doubles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_abc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec_4_lec_19__filesystem_examples_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_my_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_4_lec_22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_4_lec_22/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_4_lec_22/.idea/sec_4_lec_22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_4_lec_22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec_4_lec_22/prices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/line_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sec_4_lec_19__filesystem_examples_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_my_abc.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,29 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_my_abc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_abc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,13 +36,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt" />
         <option value="$PROJECT_DIR$/LineReader.py" />
         <option value="$PROJECT_DIR$/line_reader.py" />
         <option value="$PROJECT_DIR$/sec_4_lec_19__filesystem_examples_test.py" />
         <option value="$PROJECT_DIR$/sec_4_lec_20__mocking_an_abstract_interface.py" />
         <option value="$PROJECT_DIR$/my_abc.py" />
         <option value="$PROJECT_DIR$/test_my_abc.py" />
+        <option value="$PROJECT_DIR$/network_mock.py" />
+        <option value="$PROJECT_DIR$/test_network_mock.py" />
+        <option value="$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt" />
       </list>
     </option>
   </component>
@@ -103,6 +78,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -160,15 +136,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1034" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09277807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07907222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
@@ -176,50 +147,45 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20489977" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.09277807" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/line_reader.py" />
+    <entry file="file://$PROJECT_DIR$/sec_4_lec_19__filesystem_examples_test.py" />
+    <entry file="file://$PROJECT_DIR$/test_my_abc.py" />
+    <entry file="file://$PROJECT_DIR$/my_abc.py" />
+    <entry file="file://$PROJECT_DIR$/network_mock.py" />
+    <entry file="file://$PROJECT_DIR$/test_network_mock.py" />
     <entry file="file://$PROJECT_DIR$/sec_4_lec_18__Test_Doubles_and_mock_Framework.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec_4_lec_19__filesystem_examples_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_my_abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#4#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="597">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
         </state>
       </provider>
     </entry>
